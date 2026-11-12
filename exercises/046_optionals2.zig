@@ -66,6 +66,7 @@ fn visitElephants(first_elephant: *Elephant) void {
 
         // HINT: We want something similar to what `.?` does,
         // but instead of ending the program, we want to exit the loop...
+        // e = e.tail orelse e;
         e = e.tail orelse e;
     }
 }
